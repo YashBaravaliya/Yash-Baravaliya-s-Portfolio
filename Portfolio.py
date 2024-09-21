@@ -66,9 +66,19 @@ def main():
         
         st.markdown('<p><i class="fas fa-envelope"></i> Email: yashbaravaliya206@gmail.com</p>', unsafe_allow_html=True)
         # st.markdown('<p><i class="fas fa-phone"></i> Phone: 9724799722</p>', unsafe_allow_html=True)
-        st.markdown('<p><i class="fas fa-map-marker-alt"></i> Location: Surat, India</p>', unsafe_allow_html=True)
+        # st.markdown('<p><i class="fas fa-map-marker-alt"></i> Location: Surat, India</p>', unsafe_allow_html=True)
         st.markdown('<p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/yash-baravaliya" target="_blank">Yash Baravaliya</a></p>', unsafe_allow_html=True)
         st.markdown('<p><i class="fab fa-medium"></i> Medium: <a href="https://medium.com/@yashbaravaliya206" target="_blank">@yashbaravaliya206</a></p>', unsafe_allow_html=True)
+         # Load your resume
+        with open("resume.pdf", "rb") as file:
+            resume_data = file.read()
+        # Create a download button for the resume
+        st.download_button(
+            label="Download My Resume",
+            data=resume_data,
+            file_name="Yash_Baravaliya_Resume.pdf",  # Specify the name of the file to download
+            mime="application/pdf"
+        )
 
 
     st.write("---")
