@@ -54,7 +54,7 @@ def main():
     col1, col2 = st.columns([1, 2])
 
     with col1:
-        image = load_image('images\yash.png')  # Replace with your photo path
+        image = load_image('images/yash.png')  # Replace with your photo path
         st.image(image, use_column_width=True)
     # Include FontAwesome CSS
     st.markdown("""
@@ -145,19 +145,19 @@ def main():
     certificates = [
         {
             "title": "Data Science Master at PW SKILLS",
-            "image": "Certificates\pw.png"  # Replace with actual path
+            "image": "Certificates/pw.png"  # Replace with actual path
         },
         {
             "title": "Complete Generative AI Course With Langchain and Huggingface",
-            "image": "Certificates\gen-ai.jpg"  # Replace with actual path
+            "image": "Certificates/gen-ai.jpg"  # Replace with actual path
         },
         {
             "title": "Python for Data Scrence Master Course (2022)",
-            "image": "Certificates\ds-master-2022.jpg"  # Replace with actual path
+            "image": "Certificates/ds-master-2022.jpg"  # Replace with actual path
         },
         {
             "title": "Full Stack Web Application Development with Django Framework",
-            "image": "Certificates\\full stack.jpg"  # Replace with actual path
+            "image": "Certificates/full stack.jpg"  # Replace with actual path
         },
     ]
 
