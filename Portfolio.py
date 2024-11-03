@@ -380,7 +380,7 @@ def main():
     with col1:
         # Embed the YouTube video using the iframe
         iframe_code = """
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5suAvMmV0ho?start=26160&amp;end=26482" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/5suAvMmV0ho?start=26160&amp;end=26482" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         """
 
         # Display the iframe in Streamlit
