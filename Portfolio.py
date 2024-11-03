@@ -376,14 +376,15 @@ def main():
     st.header("Experience")
 
     st.header("Robocon Internship Experience")
+    col1, col2 = st.columns(2)
+    with col1:
+        # Embed the YouTube video using the iframe
+        iframe_code = """
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5suAvMmV0ho?start=26160&amp;end=26482" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        """
 
-    # Embed the YouTube video using the iframe
-    iframe_code = """
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5suAvMmV0ho?start=26160&amp;end=26482" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    """
-
-    # Display the iframe in Streamlit
-    st.markdown(iframe_code, unsafe_allow_html=True)
+        # Display the iframe in Streamlit
+        st.markdown(iframe_code, unsafe_allow_html=True)
 
     # st.write("U. V. Patel College of Engineering")
     st.write("01/2024 - 08/2024")
