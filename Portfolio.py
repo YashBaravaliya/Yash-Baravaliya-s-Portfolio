@@ -205,28 +205,29 @@ def main():
             st.write(description)
 
     # Project 1
-    col1, col2 = st.columns([1, 3])
-    with col1:
-        st.image("images/p1.jpg")
-    with col2:
-        st.subheader("MedGuide-AI " + "(06/2024 - Present)",)
-        st.write("""
-         - Developed a comprehensive healthcare AI application integrating NLP, computer vision, and generative AI technologies
-         - Created an AI-powered chatbot for medical information and a medicine information system with image recognition capabilities
-         - Implemented geolocation-based medicine availability and Ayurvedic plant identification using computer vision
-         - Designed a chemical bond generator utilizing SMILES notation, showcasing versatility in AI applications
-         """,)
-    # display_project(
-    #     "MedGuide-AI",
-    #     "06/2024 - Present",
-    #     """\
-    #     - Developed a comprehensive healthcare AI application integrating NLP, computer vision, and generative AI technologies
-    #     - Created an AI-powered chatbot for medical information and a medicine information system with image recognition capabilities
-    #     - Implemented geolocation-based medicine availability and Ayurvedic plant identification using computer vision
-    #     - Designed a chemical bond generator utilizing SMILES notation, showcasing versatility in AI applications
-    #     """,
-    #     "https://www.youtube.com/watch?v=YOUR_VIDEO_ID_1"  # Replace with actual video URL
-    # )
+    # col1, col2 = st.columns([1, 3])
+    # with col1:
+    #     st.image("images/p1.jpg")
+    # with col2:
+    #     st.subheader("MedGuide-AI " + "(06/2024 - Present)",)
+    #     st.write("""
+    #      - Developed a comprehensive healthcare AI application integrating NLP, computer vision, and generative AI technologies
+    #      - Created an AI-powered chatbot for medical information and a medicine information system with image recognition capabilities
+    #      - Implemented geolocation-based medicine availability and Ayurvedic plant identification using computer vision
+    #      - Designed a chemical bond generator utilizing SMILES notation, showcasing versatility in AI applications
+    #      """,)
+    #Project 1
+    display_project(
+        "MedGuide-AI",
+        "06/2024 - 12/2024",
+        """\
+        - Developed a comprehensive healthcare AI application integrating NLP, computer vision, and generative AI technologies
+        - Created an AI-powered chatbot for medical information and a medicine information system with image recognition capabilities
+        - Implemented geolocation-based medicine availability and Ayurvedic plant identification using computer vision
+        - Designed a chemical bond generator utilizing SMILES notation, showcasing versatility in AI applications
+        """,
+        "https://www.youtube.com/watch?v=O2DZ4xwOB4I"  # Replace with actual video URL
+    )
 
     # Project 2
     display_project(
